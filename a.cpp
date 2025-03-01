@@ -95,7 +95,7 @@ int ator(int numx)
         str01[str01_count]='C';
         str01_count++;
 
-        a=(nump - 90);
+        nump=(nump - 90);
     };
 
     if(nump>=50 && nump<90)
