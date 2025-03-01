@@ -274,7 +274,7 @@ int main(int argc, char * argv[])
 
 
     // argument test
-    if(argc>=1)
+    if(argc>1)
     {
 
         // argument content count
