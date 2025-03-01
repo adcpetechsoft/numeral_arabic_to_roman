@@ -4,7 +4,6 @@ Response to Golf Code https://code.golf/arabic-to-roman#c
 
 Created by amdg
 
-
 */
 
 
