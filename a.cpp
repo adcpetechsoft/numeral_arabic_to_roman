@@ -1,4 +1,4 @@
-#define STR_MAX 20
+#define STR_MAX 50
 
 #include <stdio.h>
 
@@ -8,9 +8,6 @@ int ator(int numx)
 
     int a;
     int b;
-
-    int x;
-    int y;
 
     int num;
     int nump;
@@ -218,7 +215,7 @@ int main(int argc, char * argv[])
 
 
     
-    if(argc>1)
+    if(argc>=1)
     {
 
         x=argc;
@@ -227,18 +224,15 @@ int main(int argc, char * argv[])
         {
             sscanf(argv[y], "%i", &num);
             ator(num);
-            printf("\t");
+            printf("\n");
         };
 
-
-        
 
     }else
     {
         printf("ERROR: No ARG Input...\n");
     };
 
-    printf("\n");
 
 
     return 0;
