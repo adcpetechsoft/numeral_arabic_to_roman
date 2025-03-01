@@ -22,7 +22,7 @@ int ator(int numx)
 
     if(nump>=1000 && nump<4000 )
     {
-        a=(num/1000);
+        a=(nump/1000);
 
         for(b=1; b<=a; b++)
         {
