@@ -200,13 +200,9 @@ int ator(int numx)
 
 
     
-
-
-
-
     str01[str01_count]='\0';
 
-    printf("%s\n", str01);
+    printf("%s", str01);
 
 
 }
@@ -227,7 +223,7 @@ int main(int argc, char * argv[])
 
         x=argc;
 
-        for(y=1; y<=x; y++)
+        for(y=1; y<x; y++)
         {
             sscanf(argv[y], "%i", &num);
             ator(num);
@@ -239,8 +235,10 @@ int main(int argc, char * argv[])
 
     }else
     {
-        printf("ERROR: No ARG Input...\n\n");
+        printf("ERROR: No ARG Input...\n");
     };
+
+    printf("\n");
 
 
     return 0;
